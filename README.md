@@ -1,2 +1,2 @@
 # javanology
-JAVA!
+contains some tasks with little change

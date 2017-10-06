@@ -13,13 +13,13 @@ public class buffInput {
         nama = input.readLine();
         System.out.print("Masukkan umur anda: ");
         umur = Integer.parseInt(input.readLine());
-        System.out.print("Masukkan tinggi anda: ");
+        System.out.print("Masukkan tinggi badan anda (m): ");
         tinggi = Double.parseDouble(input.readLine());
         System.out.print("Masukkan kelamin anda (L/P): ");
         jenkel = (input.readLine()).charAt(0);
-        System.out.print("Status: ");
+        System.out.print("Status keaktifan: ");
         status = Boolean.parseBoolean(input.readLine());
         System.out.println("-------------------------------------------OUTPUT-------------------------------------------------------");
-        System.out.println("Nama: "+nama+"\nUmur: "+umur+"\nTinggi badan: "+tinggi+"\nJenis Kelmin: "+jenkel+"\nstatus: "+status);
+        System.out.println("Nama: "+nama+"\nUmur: "+umur+" th\nTinggi badan: "+tinggi+"m\nJenis Kelamin: "+jenkel+"\nStatus keaktifan: "+status);
     }
 }

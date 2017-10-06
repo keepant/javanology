@@ -9,7 +9,7 @@ public class var{
         char kelas = 'C';
         boolean status = true;
         System.out.println("Nama saya "+nama);
-        System.out.println("umur saya "+umur+" tahun");
+        System.out.println("umur saya "+(umur+3)+" tahun");
         System.out.println("saya lahir tahun "+tahunLahir);
         System.out.println("IPK saya "+ipk);
         System.out.println("saya dari kelas "+kelas);

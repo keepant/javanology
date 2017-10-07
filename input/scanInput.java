@@ -7,7 +7,7 @@ public class scanInput{
         int umur;
         double tinggi;
         char jenkel;
-        boolean status;
+     //   boolean status;
 
         System.out.print("Masukkan nama: ");
         nama = input.nextLine();

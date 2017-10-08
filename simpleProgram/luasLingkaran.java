@@ -9,7 +9,7 @@ public class luasLingkaran{
         System.out.print("Masukkan Jari-jari: ");
         jari = Double.parseDouble(input.readLine());
         
-        luas=phi*jari*jari;
+        luas=phi*(jari*jari);
         System.out.println("Luas Lingkaran: "+luas+" meter");
 
     }

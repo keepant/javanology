@@ -8,6 +8,7 @@ public class rataRata{
         double hasil;
 
         try{
+            System.out.println("-----HARAP MASUKKAN DENGAN BILANGAN BULAT-----");
             System.out.print("Masukkan bilangan pertama: ");
             bil1 = Integer.parseInt(input.readLine());
             System.out.print("Masukkan bilangan kedua: ");
@@ -18,7 +19,7 @@ public class rataRata{
             hasil=(double)(bil1+bil2+bil3)/3;
 
             System.out.println("Rata-rata dari ketiga bilangan tersebut: "+hasil);
-        } catch(NumberFormatException e){
+        }catch(NumberFormatException e){
             System.out.println("Inputan harus bilangan bulat!");
         }
         

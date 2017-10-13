@@ -5,7 +5,7 @@ public class swaping{
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
         int bil1, bil2;
         try{
-            System.out.println("---INPUTAN HARUS BILANGAN BULAT---");
+            System.out.println("---INPUTAN  HARUS BILANGAN BULAT---");
             System.out.print("Masukkan Bilangan A: ");
             bil1 = Integer.parseInt(input.readLine());
             System.out.print("Masukkan Bilangan B: ");

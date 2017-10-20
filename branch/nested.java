@@ -6,6 +6,7 @@ public class nested{
 
         int nilai;
         char predikat;
+        String status;
 
         System.out.print("Masukkan Nilai: ");
         nilai = Integer.parseInt(input.readLine());
@@ -22,5 +23,19 @@ public class nested{
             predikat='A';
         }
         System.out.println("Predikat Nilai: "+predikat);
+
+        if ((nilai>=0)&&(nilai<=100)){
+            status="VALID";
+        } else {
+            status="TIDAK VALID";
+        }
+        System.out.println("Nilai "+status);
+
+        if ((nilai<0)||(nilai>100)){
+            status="TIDAK VALID";
+        } else {
+            status="VALID";
+        }
+        System.out.println("Nilai "+status);
     }
 }

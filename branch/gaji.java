@@ -6,7 +6,6 @@ public class gaji{
 
         int golongan;
         double totalGaji=0;
-        double diskon;
 
         System.out.print("Masukkan golongan: ");
         golongan = Integer.parseInt(input.readLine());
@@ -17,7 +16,7 @@ public class gaji{
             totalGaji=2000000;
         } else if(golongan==3){
             totalGaji=3000000-0.02*3000000;
-        }
+         }
         System.out.println("Total gaji: "+totalGaji);
     }
 }

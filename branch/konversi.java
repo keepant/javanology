@@ -17,11 +17,11 @@ public class konversi{
                 status="BAIK";
             } else if (nilai>=60){
                 status="CUKUP";
-            } else if(nilai<60){
+            } else {
                 status="GAGAL";
             }
         } else{
-            status="-";
+            status="NILAI TIDAK VALID";
         }
         System.out.println("Predikat: "+status);
     }

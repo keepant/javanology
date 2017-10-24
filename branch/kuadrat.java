@@ -22,22 +22,24 @@ public class kuadrat{
         if(D==0){
             akar="SAMA";
             x1 = (-b+Math.sqrt(D))/(2*a);
-            x2 = (-b-Math.sqrt(D))/(2*a);     
+            x2 = (-b-Math.sqrt(D))/(2*a);   
+            System.out.println("x1:  "+x1);
+            System.out.println("x2:  "+x2);   
         }  else if (D>0){
             akar="NYATA";
             x1 = (-b+Math.sqrt(D))/(2*a);
             x2 = (-b-Math.sqrt(D))/(2*a);  
-        } else if (D<0){
+            System.out.println("x1:  "+x1);
+            System.out.println("x2:  "+x2); 
+        } else {
             akar="KHAYAL";
             if (a>0){
                 definit="POSITIF"; 
             } else {
-                definit="NEGATIF";
+                definit="NEGATIF"    ;
             }
             System.out.println("Definit: "+definit);
         }
         System.out.println("Sifat akarnya: "+akar);
-        System.out.println("x1:  "+x1);
-        System.out.println("x2:  "+x2); 
     }
 }

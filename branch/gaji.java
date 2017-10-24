@@ -17,8 +17,6 @@ public class gaji{
             totalGaji=2000000;
         } else if(golongan==3){
             totalGaji=3000000-0.02*3000000;
-        } else {
-            System.out.println("Inputan salah!");
         }
         System.out.println("Total gaji: "+totalGaji);
     }

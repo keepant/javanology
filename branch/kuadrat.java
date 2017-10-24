@@ -17,7 +17,7 @@ public class kuadrat{
         System.out.print("Masukkan nilai c: ");
         c = Integer.parseInt(input.readLine());
 
-        D = b*b - 4*a*c;
+        D = Math.pow(b,2) - 4*a*c;
         
         if(D==0){
             akar="SAMA";

@@ -17,7 +17,21 @@ public class suhu{
         System.out.print("Konversi ke no: ");
         no = Integer.parseInt(input.readLine());
 
-        if(no==1){
+        switch(no){
+            case 1: hasil=1.8*celcius+32;
+                    konversi="Farenheit";
+                    break;
+            case 2: hasil=0.8*celcius;
+                    konversi="Reamur";
+                    break;
+            case 3: hasil=celcius+273;
+                    konversi="Kelvin";
+                    break;
+            default: hasil=celcius;
+                     konversi="Celcius";
+        }
+
+       /* if(no==1){
             hasil=1.8*celcius+32;
             konversi="Farenheit";
         } else if(no==2){
@@ -26,7 +40,7 @@ public class suhu{
         } else{
             hasil=celcius+273;
             konversi="Kelvin"; 
-        }
+        } */
 
         System.out.println("Hasil konversi: "+hasil+ " "+konversi);
     }

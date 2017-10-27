@@ -6,15 +6,14 @@ public class positif{
 
          int nilai;
          String hasil="";
-         String ket;
 
          System.out.print("Masukkan bilangan: ");
          nilai = Integer.parseInt(input.readLine());
 
          if(nilai % 2 == 1){
-            ket="Ganjil";
+            hasil="Positif Ganjil";
          } else{
-            ket="Genap";
+            hasil="Positif Genap";
          }
 
          if(nilai<0){

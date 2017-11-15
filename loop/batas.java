@@ -12,7 +12,7 @@ public class batas{
         angka2 = Integer.parseInt(input.readLine());
 
         for(int i=angka1;i<=angka2;i++){
-            System.out.print(i);
+            System.out.print(i+" ");
         }
     }
 }

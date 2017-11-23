@@ -10,7 +10,7 @@ public class karakter{
         do{
             System.out.print("Masukkan karakter: ");
             kar = (input.readLine()).charAt(0);
-            System.out.println(kar);
+            System.out.println("Karakter anda: "+kar);
             nilai++;
             if((kar=='x') || (kar=='X')){
                 nilai-=nilai;

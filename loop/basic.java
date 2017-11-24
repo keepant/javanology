@@ -6,7 +6,7 @@ public class basic{
 
         int nilaiAwal, nilaiAkhir; 
         
-        System.out.print("Masukkan nilai Awal: ");
+        /* System.out.print("Masukkan nilai Awal: ");
         nilaiAwal = Integer.parseInt(input.readLine());
         
         System.out.print("Masukkan nilai Akhir: ");
@@ -16,7 +16,16 @@ public class basic{
         while(i>=nilaiAkhir){
             System.out.println(i);
             i--;
-            
+        } */
+
+        int i, n;
+        System.out.print("Masukkan banyak perulangan: ");
+        n = Integer.parseInt(input.readLine());
+        
+        i=1;
+        while(i<=n){
+            System.out.println("Selamat Siang ke -"+i);
+            i++;
         }
     }
 }

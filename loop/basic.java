@@ -27,6 +27,7 @@ public class basic{
             System.out.println("Selamat Siang ke -"+i);
             i++;
         }
+        System.out.println("--------------------------------------");
         char konfirm;
         konfirm='y';
         i=1;
@@ -36,5 +37,13 @@ public class basic{
             System.out.print("Cetak lagi? (Y/T): ");
             konfirm = (input.readLine()).charAt(0);
         }
+        System.out.println("--------------------------------------");
+        i=1;
+        do{
+            System.out.println("Selamat Pagi ke-"+i);
+            i++;
+            System.out.print("Cetak lagi? (Y/T): ");
+            konfirm = (input.readLine()).charAt(0);
+        } while((konfirm=='y') || (konfirm=='Y'));
     }
 }

@@ -5,16 +5,10 @@ public class karakter{
         BufferedReader input  = new BufferedReader(new InputStreamReader(System.in));
     
         char kar;
-        int nilai=0;
-
         do{
             System.out.print("Masukkan karakter: ");
             kar = (input.readLine()).charAt(0);
             System.out.println("Karakter anda: "+kar);
-            nilai++;
-            if((kar=='x') || (kar=='X')){
-                nilai-=nilai;
-            }
-        } while(nilai>=1);
+        } while((kar!='x') && (kar!='X'));
     }
 }

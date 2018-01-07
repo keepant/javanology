@@ -37,11 +37,12 @@ public class arrayNilai{
         for(i=0;i<ipk.length;i++){
             ipk[i]=(double)(nilaiAlgo[i]+nilaiMat[i])/2;
         }
-
+/* 
         double jmlIPK=0, rataIPK;
         for(i=0;i<ipk.length;i++){
             jmlIPK+=ipk[i];
-        }
+        } */
+        
         rataIPK=jmlIPK/4;
 
         for(i=0;i<nama.length;i++){
@@ -60,10 +61,18 @@ public class arrayNilai{
             System.out.println("IPK siswa "+nama[i]+": "+ipk[i]);
         }
 
+        double max=ipk[0];
+        int n=0;
+        if(i<1){
+            for(i=1;ipk[i]>max;i++){
+                max=ipk[i];
+            }
+        }
+
         System.out.println("Rata-rata Nilai Algo: "+rataAlgo);
         System.out.println("Rata-rata Nilai Mat: "+rataMat);  
-        System.out.println("Rata-rata Nilai IPK: "+rataIPK);   
-        
+        System.out.println("Rata-rata Nilai IPK: "+rataIPK);
+        System.out.println("max:" +max);
         
     }
 }

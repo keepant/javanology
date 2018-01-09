@@ -20,7 +20,7 @@ public class deretGeometri{
         System.out.println("Jumlah bilangan suku ke-"+n+" adalah "+geometriRekursif(a, r, n));
     }
 
-    public static int geometriReturn(int a, int r, int n){
+    public static int geometriReturn(int a,  int r, int n){
         int hasil=0, un;
         int i=1;
         while(i<=n){
@@ -38,7 +38,7 @@ public class deretGeometri{
         if(n==0){
             hasil=n;
         } else if(n==1){
-            hasil=n;
+            hasil=a;
         } else{
             hasil=a*(int)(Math.pow(r, n-1))+geometriRekursif(a, r, n-1);            
         }

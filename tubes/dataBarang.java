@@ -51,7 +51,7 @@ public class dataBarang{
         String tempNama;
         int tempHarga;
         String tempSatuan;
-        int i=4;
+        int i=nama.length;
         do{
             System.out.print("Nama barang\t: ");
             tempNama = input.readLine();

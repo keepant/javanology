@@ -8,7 +8,7 @@ public class pangkatRek{
         System.out.print("Masukkan angka: ");
         angka = Integer.parseInt(input.readLine());
         System.out.print("Masukkan pangkat: ");
-        pangkat = Integer.parseInt(input.readLine());
+        pangkat = Integer.parseInt(input.readLine());                 
 
         System.out.println("---Menghitung x pangkat y menggunakan fungsi return tanpa rekursi---");
         pangkatReturn(angka, pangkat);
@@ -25,7 +25,7 @@ public class pangkatRek{
         for(i=1;i<y;i++){
             hasil*=x;
         }
-
+ 
         System.out.println("Hasil dari "+x+"^"+y+" adalah "+hasil);
 
         return hasil;

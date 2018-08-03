@@ -6,9 +6,9 @@ public class ganjil{
             System.out.printf("Masukkan Bilangan: ");
             int ganjil=bil.nextInt();
             if(ganjil % 2 == 1){
-                System.out.println(ganjil + " Adalah bilangan Ganjil");
+                System.out.println(ganjil + " Adalah bilangan Ganjil bos");
             } else {
-                System.out.println(ganjil + " Adalah bilangan Genap");
+                System.out.println(ganjil + " Adalah bilangan Genap bos");
             }
     }
 }
